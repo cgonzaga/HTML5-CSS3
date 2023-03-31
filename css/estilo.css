@@ -1,12 +1,39 @@
-/*                
-    CCS - PROJETO
-*/
+/* ///////////////////////////// CSS- PROJETO /////////////////////////////// */
+
+/* Google fonts >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/* CSS Reset >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+* { margin: 0; border: 0; padding:0; }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+/* Layout >>>>>>>>>>>>>>>>>>>>>> */
+.container {
+    margin: 0 auto;
+    background-color: #77ff00;
+
+}
+
+/* Smartphone Portrait */
+@media (min-width: 576px){
+    
+}
 
 /* Smartphone LandScape */
 @media (min-width: 576px){
 
     body {
         background-color: #0ff;
+    }
+
+    .container {
+        max-width: 540px;
     }
     
 }
@@ -16,6 +43,10 @@
 
     body {
         background-color: #ff0;
+    }
+
+    .container {
+        max-width: 720px;
     }
     
 }
@@ -27,7 +58,9 @@
     body {
         background-color: #ff6600;
     }
-    
+    .container {
+        max-width: 960px;
+    }
 }
 
 /* PC */    
@@ -35,6 +68,10 @@
 
     body {
         background-color: #f00;
+    }
+
+    .container {
+        max-width: 1140px;
     }
     
 }

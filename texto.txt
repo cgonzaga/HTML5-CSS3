@@ -1,0 +1,18 @@
+<!-- TAGS SEMANTICAS -->
+
+<header> Cabeçalho
+<nav> Menu
+<main> Conteúdo Principal
+<section> Agrupamento de conteúdo
+<article> Artigos, comentários, widget
+<aside> Side background
+<footer> Rodapé
+
+<!-- Heading TAGS -->
+
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>

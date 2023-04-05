@@ -29,6 +29,11 @@ body {
     align-items: center;
 }
 
+.flex3 {
+    display: flex;
+    flex-direction: column;
+}
+
 .botao {
     text-decoration: none;
     color: #fff;
@@ -149,6 +154,28 @@ main h2 {
     margin-right: 10px;
 }
 
+/* One Page */
+
+#onepage {
+    padding: 50px 10px;
+
+}
+
+#onepage h2 {
+    margin-bottom: 10px;
+}
+
+#onpage p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px;
+    border: 0px;
+}
+
+
 /* Smartphone LandScape */
 @media (min-width: 576px){
 
@@ -159,6 +186,11 @@ main h2 {
     /*Destaque */
     main h1, main h2 {
         text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+    
+    #video iframe {
+        width: 560px;
+        height: 315px;
     }
     
 }
@@ -259,5 +291,11 @@ main h2 {
     #destaqueSobre img {
         border-radius: 50%;
         margin-right: 50px;
+    }
+
+
+    .flex3 {
+        flex-direction: row;
+        align-items: center;
     }
 }

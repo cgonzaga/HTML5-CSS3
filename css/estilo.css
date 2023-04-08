@@ -165,7 +165,7 @@ main h2 {
     margin-bottom: 10px;
 }
 
-#onpage p {
+#onepage p {
     margin-bottom: 25px;
 }
 
@@ -174,6 +174,39 @@ main h2 {
     height: 191px;
     border: 0px;
 }
+
+
+/* WiewFrame */
+
+#wireFrame {
+    padding: 50px 0px;
+    background: url("../img/background.png");
+    background-size: cover;
+    background-position: center
+}
+
+#textoWire {
+    color: white;
+    padding: 0px 10px;
+
+}
+
+#textoWire h2 {
+    margin-bottom: 10px;
+}
+
+#textoWire p {
+    margin-bottom: 40px;
+}
+
+#textoWire span {
+    display: none;
+}
+
+#qrCode {
+    display: none;
+}
+
 
 
 /* Smartphone LandScape */
@@ -298,4 +331,25 @@ main h2 {
         flex-direction: row;
         align-items: center;
     }
+
+   
+    /* wireFrame  */
+    #wireframe {
+        background-attachment: fixed;
+    }
+
+    #wireFrame span {
+        display: inline;
+      
+    }
+
+    #qrCode {
+        display: inline; 
+    }
+
+    #qrCode img {
+        width: 225px;
+        height: 225px;
+    }
+
 }
